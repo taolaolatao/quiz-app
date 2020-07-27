@@ -15,3 +15,8 @@ type Answer = {
 	correct: boolean;
 	correctAnswer: string;
 };
+
+type ButtonWrapperProps = {
+	correct: boolean;
+	userClicked: boolean;
+};
